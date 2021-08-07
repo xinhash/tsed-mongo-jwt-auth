@@ -3,7 +3,7 @@ import { Unauthorized } from "@tsed/exceptions";
 import { OnVerify, Protocol } from "@tsed/passport";
 import * as jwt from "jsonwebtoken";
 import { IStrategyOptions, Strategy } from "passport-local";
-import { User } from "src/models/users/User";
+import { User } from "../models/users/User";
 import { UsersService } from "../services/UsersService";
 
 @Protocol<IStrategyOptions>({
