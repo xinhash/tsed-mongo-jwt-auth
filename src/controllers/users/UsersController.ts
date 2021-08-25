@@ -1,8 +1,8 @@
 import { BodyParams, Controller, Get, Post } from "@tsed/common";
 import { Authorize } from "@tsed/passport";
 import { Description, Required, Returns, Summary, Groups } from "@tsed/schema";
-import { User } from "src/models/users/User";
-import { UsersService } from "src/services/UsersService";
+import { User } from "../../models/users/User";
+import { UsersService } from "../../services/UsersService";
 
 @Controller("/users")
 export class UsersController {

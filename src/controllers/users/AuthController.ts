@@ -10,8 +10,7 @@ import {
 } from "@tsed/common";
 import { Authenticate, Authorize } from "@tsed/passport";
 import { Groups, Returns } from "@tsed/schema";
-import { AcceptRoles } from "src/decorators/AcceptRoles";
-import { User } from "src/models/users/User";
+import { User } from "../../models/users/User";
 
 @Controller("/auth")
 @Scope(ProviderScope.SINGLETON)

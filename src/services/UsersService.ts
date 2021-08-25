@@ -1,6 +1,6 @@
 import { Service, Inject, $log } from "@tsed/common";
 import { MongooseModel } from "@tsed/mongoose";
-import { User } from "src/models/users/User";
+import { User } from "../models/users/User";
 
 @Service()
 export class UsersService {
